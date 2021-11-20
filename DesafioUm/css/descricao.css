@@ -1,0 +1,58 @@
+.images-descricao img{
+    
+    width: 35%;
+
+    max-width: 900px;
+    min-width: 200px;
+    margin: 10px;
+    
+    vertical-align:middle;
+
+    
+}
+
+.inline-b{
+    
+    
+}
+.conteudo{
+    border-top: solid 1px #fff;
+    margin-top: 10px;
+}
+.conteudo h1{
+    color: #fff;
+    text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+     margin-top: 10px;
+     font-size: 5vw;
+ }
+.conteudo h2{
+   color: #fff;
+    margin-top: 10px;
+}
+.card-conte{
+    display: inline-block;
+    height: 150px;
+    width: 300px;
+    
+    vertical-align:middle;
+
+    
+    
+}
+.compra h3{
+    font-size: 4vw;
+    text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+    color: rgba(0, 255, 42, 0.898);
+    
+}
+.compra button{
+    background-color: rgba(0, 255, 42, 0.898);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    width: 250px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    
+    text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+}
