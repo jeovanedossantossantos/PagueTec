@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #000;
+   
+
+}
+body{
+    background: linear-gradient( #40EBC2, #4084EB , #4084EB) no-repeat;
+    
+    /* radial-gradient( #40EBC2 15.62%, #4084EB 99.99%, #4084EB 100%); */
+    
+}
+nav{
+    margin: auto;
+    /* background-color: blue; */
+    width: 90%;
+}
+nav .menu{
+    display: flex;
+    border-bottom: solid;
+    text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px
+
+    
+}
+.logo{
+    /* background-color: royalblue; */
+    width: 50%;
+    text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+    margin-top: 5px;
+    color: #fff;
+    /* text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px */
+
+}
+.logo h1{
+    align-items: center;
+    color: #fff;
+    cursor:none;
+}
+ .logo span{
+    color: yellow;
+}
+.menu .navegacao{
+    
+    width: 50%;
+    margin: auto;
+    
+    /* text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px */
+   
+}
+
+.menu .navegacao .primario{
+    list-style: none;
+    display: flex;
+    float: right;
+    padding: 10px;
+}
+.menu .navegacao .primario .text-ajust{
+    
+    
+    padding: 5px;
+   
+    text-align: center;
+}
+.menu .navegacao .primario .text-ajust a{
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    transition: 1s;
+}
+.menu .navegacao .primario .text-ajust a:hover{
+    background-color: rgb(12, 158, 144);
+    color: yellow;
+    border-radius: 5px;
+}
+.filtro{
+    margin-top: 5px;
+    
+    color: #fff;
+}
+
+.filtro{
+    list-style: none;
+    display: flex;
+    
+   
+}
+.filtro ul li{
+    
+}
+.filtro li a{
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    color: #fff;
+    text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+   
+
+}
+.filtro li a:hover{
+   color: yellow;
+
+}
+.texto{
+    background-color: #000;
+    display: flex;
+    margin: auto;
+    
+    
+}
+.texto div{
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.texto h1, .texto h2{
+    color: #fff;
+}
+.texto h1{
+    font-size: 8vw;
+}
+.center{
+    text-align: center;
+}
+.colo-red{
+    color: red;
+    font-size: 10vw;
+}
+.rigth{
+    
+    float: right;
+}
+.col{
+   
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+.container{
+    margin: auto;
+    width: 90%;
+    justify-content: space-evenly;
+    
+    text-align: center;
+}
+.tipo{
+    text-transform: uppercase;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 82%;
+    color: #fff;
+    
+    text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+
+}
+div.card{
+    display: inline-block;
+    background-color: #fff;
+    max-width: 100%;
+    cursor: pointer;
+    border: solid ;
+  
+    
+    
+
+}
+div.card a{ 
+    text-decoration: none;
+    
+}
+div.card:hover{
+    background-color: #66a8ff;
+}
+
+
+div.card .imagens{
+    width: 30%;
+    min-width: 300px;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.descricao{
+    margin: 5px;
+}
+.descricao h3{
+    font-size: 20pt;
+    text-transform: uppercase;
+    text-align: justify;
+}
+.descricao h2{
+    font-size: 24pt;
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+}
+.descricao p{
+    
+    text-transform: uppercase;
+    margin: auto;
+    text-align: justify;
+ 
+    width: 250px;
+
+}
+footer{
+    margin-top: 10px;
+    border-top: solid 1px #000;
+    padding: 20px;
+    background-color: rgb(197, 197, 197);
+}
+footer p{
+    margin-top: 10px;
+    font-size: 20pt;
+
+    
+}
+/*
+.produtos{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 1200px;
+    background-color: red;
+   
+}
+div.card{
+    display: inline-block;
+    background-color: #40EBC2;
+    
+    width: 80%;
+    max-width: 300px;
+    margin: 5px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.imagens{
+    width: 30%;
+    min-width: 200px;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+@media (max-width: 730px){
+    .texto{
+        margin: auto;
+        
+        display: block;
+       
+        
+    }
+}
+@media (max-width: 1054px){
+    .produtos{
+        
+        display: inline-block;
+       
+    }
+} */
