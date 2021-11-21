@@ -159,10 +159,12 @@ nav .menu{
 div.card{
     display: inline-block;
     background-color: #fff;
-    max-width: 100%;
+    width: 300px;
+    height: 400px;
     cursor: pointer;
     border: solid ;
     margin-top: 10px;
+    vertical-align: middle;
   
     
     
@@ -175,24 +177,33 @@ div.card a{
 div.card:hover{
     background-color: #66a8ff;
 }
+div.card div{
+    height: 190px;
+}
 
-
-div.card .imagens{
-    width: 30%;
-    min-width: 300px;
+div.card div .imagens{
+    width: 300px;
     max-width: 350px;
     margin-left: auto;
     margin-right: auto;
     
+    
+    
 }
 
 .descricao{
-    margin: 5px;
+    margin-top: 20px;
+    vertical-align: middle;
+   
+    
 }
+
 .descricao h3{
     font-size: 20pt;
     text-transform: uppercase;
     text-align: justify;
+    margin: 5px;
+    margin-top: 10px;
 }
 .descricao h2{
     font-size: 24pt;

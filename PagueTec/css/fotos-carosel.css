@@ -1,0 +1,61 @@
+body {
+    font-family: Arial;
+    font-size: 10pt;
+    overflow: hidden;
+}
+
+article {
+    margin: auto;
+    text-align: center;
+
+
+}
+
+article img {
+    width: 50%;
+
+    max-width: 900px;
+    min-width: 200px;
+    margin: auto;
+    margin-bottom: 500px;
+    margin-top: 20px;
+
+    vertical-align: middle;
+}
+
+@media (max-width: 500px) {
+    article img {
+
+
+
+        margin: auto;
+        margin-bottom: 300px;
+        margin-top: 250px;
+
+    }
+}
+
+@media (max-width: 600px) {
+    article img {
+
+
+
+        margin: auto;
+        margin-bottom: 300px;
+        margin-top: 100px;
+
+    }
+}
+
+@media (max-width: 900px) {
+    article img {
+
+
+
+        margin: auto;
+        margin-bottom: 300px;
+        margin-top: 50px;
+
+
+    }
+}

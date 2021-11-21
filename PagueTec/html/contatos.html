@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/estilo.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="../css/contato.css" media="screen" />
-     
+
     <title>PagueTec | Produtos de TI</title>
 </head>
 
@@ -60,6 +60,7 @@
         </div>
         <hr>
         <div class="conteudo-contatos">
+            <h1>O que é essa pagina?</h1>
             <p>Essa é uma empresa ficdicia, ou seja não pode compra ou entra em contado com ela. Mas, é possive entra em
                 contado com o o criador do site, <a target="_black" href="https://www.linkedin.com/in/jeovanesantos/"
                     style="color: #fff;">linkedin do criador.</a>
@@ -71,8 +72,59 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, ipsa, repellendus, provident beatae
                 explicabo doloribus officiis atque id qui obcaecati ex veritatis aspernatur quas. Molestias odit
                 mollitia qui nulla libero!</p>
+
+                <h1>Fale com nosco</h1>
         </div>
+        
+        <form method="POST" id="fContato" action="mailto:jeovanedos2santos@gmail.com">
+            <fieldset id="usuario">
+                <legend>Diga quem é você:</legend>
+                <p>
+                    <label for="cNome"> Nome:</label><input type="text" name="tNome" id="cNome" size="25" maxlength="50"
+                        placeholder="Nome Completo" /></p>
+
+                <p>
+                    <label for="cEmail">E-mail:</label><input type="email" name="tEmail" id="cEmail" size="25"
+                        maxlength="50" placeholder="fulanho@gmail.com">
+
+                </p>
+                <fieldset id="sexo">
+                    <legend>Sexo</legend>
+                    <input type="radio" name="tSexo" id="cMasc" /><label for="cMasc"> Masculino</label></br>
+                    <input type="radio" name="tSexo" id="cFem" /><label for="cFem">Feminino</label></br>
+                    <input type="radio" name="tSexo" id="cN" /><label for="cN">Não mim indentifico com nenhum</label>
+                </fieldset>
+                <p>
+                    <label for="cNasc">Data de Nascimento:</label><input type="date" name="tNasc" id="cNasc"></p>
+            </fieldset>
+            <fieldset id="endereco">
+                <legend>De onde você é?</legend>
+                <p>
+                    <label for="cEnd"> Qual é o Estado e cidade que você mora?</label> <input type="text" name="tEnd"
+                        id="cEnd" size="25" maxlength="50" placeholder="BA, Maragogipe">
+                </p>
+
+
+
+            </fieldset>
+            <fieldset id="mensagem">
+                <legend>Diga o que você acho do nosso site:</legend>
+                <p><label for="cUrg"> De uma nota:</label>
+                    <input type="range" name="tUrg" id="cUrg" min="0" max="10" step="1">
+                </p>
+                <p><label for="cMsg"> Mensagem:</label>
+                    <textarea class="w-100" name="tMsg" id="cMsg" cols="" rows="5"
+                        placeholder="Deixe aqui sua mensagem!"></textarea>
+                </p>
+            </fieldset>
+
+
+
+
+            <button class="botao" type="submit" name="tEnviar">Enviar</button>
+        </form>
     </section>
+
 
     <footer class="center">
         <p>&#169; TODOS OS DIREITOS RESEVADO - 2021</p>

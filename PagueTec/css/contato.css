@@ -1,12 +1,15 @@
 body{
     overflow-x: hidden;
-    overflow-y: hidden;
+    
+    
 }
 .conteudo-contatos{
     width: 70%;
     margin: auto;
     text-align: justify;
     margin-top: 10px;
+    padding: 10px;
+    
 }
 .conteudo-contatos p{
     font-size: 14pt;
@@ -17,6 +20,63 @@ body{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    color: #fff;
+    text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+}
+
+
+form{
+    text-align: center;
+    width: 90%;
+    max-width:500px;
+    min-width: 200px;
+    margin: auto;
+    border: ridge 2px rgba(255, 255, 255, 0.8);
+    background-color: #fff;
+}
+form p{
+    margin: 5px;
+}
+form input, form label{
+    margin: 5px;
+}
+input, textarea{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+input:hover, textarea:hover{
+    background-color: #9b9898;
+}
+legend{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+    text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+}
+fieldset{
+    border-color: #cecece;
+    margin: 20px;
+
+}
+fieldset#sexo{
+    width: 150px;
+
+}
+
+.w-100{
+    width: 100%;
+}
+.botao{
+    
+    background-color: green;
+    margin: auto;
+    cursor: pointer;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
     color: #fff;
     text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
 }
