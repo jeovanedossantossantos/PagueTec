@@ -8,15 +8,20 @@
 
 }
 body{
-    background: linear-gradient( #40EBC2, #4084EB , #4084EB) no-repeat;
+    background: #fff
     
     /* radial-gradient( #40EBC2 15.62%, #4084EB 99.99%, #4084EB 100%); */
     
+}
+header{
+    background: linear-gradient( #40EBC2, #4084EB , #4084EB) no-repeat;
+    border-bottom: solid 2px #000;
 }
 nav{
     margin: auto;
     /* background-color: blue; */
     width: 90%;
+    
 }
 nav .menu{
     display: flex;
@@ -87,9 +92,7 @@ nav .menu{
     
    
 }
-.filtro ul li{
-    
-}
+
 .filtro li a{
     text-decoration: none;
     margin: 5px;
@@ -158,13 +161,14 @@ nav .menu{
 }
 div.card{
     display: inline-block;
-    background-color: #fff;
+    background: linear-gradient( #40EBC2, #4084EB , #4084EB) no-repeat;
     width: 300px;
     height: 400px;
     cursor: pointer;
     border: solid ;
     margin-top: 10px;
     vertical-align: middle;
+    
   
     
     
@@ -173,12 +177,14 @@ div.card{
 div.card a{ 
     text-decoration: none;
     
+    
 }
 div.card:hover{
-    background-color: #66a8ff;
+    background: #66a8ff;
 }
 div.card div{
     height: 190px;
+    
 }
 
 div.card div .imagens{
@@ -204,12 +210,17 @@ div.card div .imagens{
     text-align: justify;
     margin: 5px;
     margin-top: 10px;
+    color: #fff;
+    text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+
 }
 .descricao h2{
     font-size: 24pt;
     text-transform: uppercase;
     text-align: center;
     color: red;
+    text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+
 }
 .descricao p{
     
@@ -218,6 +229,9 @@ div.card div .imagens{
     text-align: justify;
  
     width: 250px;
+    color: #fff;
+    text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+
 
 }
 footer{

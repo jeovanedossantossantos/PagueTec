@@ -80,3 +80,6 @@ fieldset#sexo{
     color: #fff;
     text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
 }
+.justificar{
+    text-align: justify;
+}

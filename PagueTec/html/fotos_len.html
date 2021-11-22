@@ -3,11 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="shortcut icon" type="imagex/png"href="../img/icone.png"">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="../css/fotos-carosel.css" media="screen" />
     <style>
-       
+       @media (max-width: 500px) {
+           article img{
+               width: 110%;
+
+           }
+           article .img-tam{
+            width :100%;
+           }
+           
+       }
     </style>
 
 </head>
@@ -15,21 +24,24 @@
 <body>
     <article id="1">
 
-        <img src="../img/lenovo.PNG" />
+        <img style="width: 40%;" src="../img/lenovo.PNG" />
 
     </article>
 
     <article id="5">
 
-        <img src="../img/lenovo1.PNG" />
+        <img class="img-tam" src="../img/lenovo1.PNG" />
 
     </article>
 
     <article id="3">
 
-        <img src="../img/lenovo2.PNG" />
+        <img  src="../img/lenovo2.PNG" />
     </article>
+    <article id="4">
 
+        <img  src="../img/lenovo3.PNG" />
+    </article>
 
     </article>
 
