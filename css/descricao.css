@@ -94,6 +94,12 @@
 
     text-shadow: #000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
 }
+.compra button:hover{
+    background: linear-gradient(0deg, rgba(255,255,255,1) 45%, rgba(0,255,42,1) 100%);
+    
+
+    text-shadow: #000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+}
 
 @media (max-width: 900px) {
     .carrocel iframe {}

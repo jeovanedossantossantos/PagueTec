@@ -8,14 +8,17 @@
 
 }
 body{
-    background: rgb(214, 210, 210);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 24%, rgba(2,0,36,1) 100%);
     
     /* radial-gradient( #40EBC2 15.62%, #4084EB 99.99%, #4084EB 100%); */
     
 }
 header{
-    background: linear-gradient( #40EBC2, #4084EB , #4084EB) no-repeat;
+    /* background: linear-gradient( #40EBC2, #4084EB , #4084EB) no-repeat; */
     border-bottom: solid 2px #000;
+    /* background: rgb(244,216,0); */
+/* background: linear-gradient(0deg, rgba(244,216,0,1) 47%, rgba(2,0,36,1) 90%); */
+background: rgba(244,216,0,1);
 }
 nav{
     margin: auto;
@@ -76,7 +79,7 @@ nav .menu{
     transition: 1s;
 }
 .menu .navegacao .primario .text-ajust a:hover{
-    background-color: rgb(12, 158, 144);
+    background-color:#fff;
     color: yellow;
     border-radius: 5px;
 }
@@ -161,7 +164,7 @@ nav .menu{
 }
 div.card{
     display: inline-block;
-    background: linear-gradient( #40EBC2, #4084EB , #4084EB) no-repeat;
+    /* background: linear-gradient( #40EBC2, #4084EB , #4084EB) no-repeat; */
     width: 300px;
     height: 400px;
     cursor: pointer;
@@ -179,8 +182,20 @@ div.card a{
     
     
 }
+.bg-dark{
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 10%, rgba(249, 249, 249, 1) 50%, rgba(2, 0, 36, 1) 90%);
+}
+
+div.card a div{ 
+    height: 200px;
+    
+    
+    
+}
 div.card:hover{
-    background: #66a8ff;
+    background: rgb(0, 0, 0);
+    transition: 800ms;
+
 }
 div.card div{
     height: 190px;
@@ -197,13 +212,32 @@ div.card div .imagens{
     
 }
 
+
 .descricao{
+    
+    text-align: justify;
+    margin-left: 10px;
     margin-top: 20px;
     vertical-align: middle;
+
+}
+.prazo{
    
+    font-size: 10pt;
+    color: #fff;
     
 }
+.frete{
+    margin-bottom: 10px;
+    color: rgb(0, 255, 0);
+   
+}
+.riscado{
+    text-decoration: line-through;
+    font-size: 10pt;
 
+    color: #fff;
+}
 .descricao h3{
     font-size: 20pt;
     text-transform: uppercase;
@@ -228,7 +262,7 @@ div.card div .imagens{
 .descricao p{
     
     text-transform: uppercase;
-    margin: auto;
+    
     text-align: justify;
  
     width: 250px;
@@ -242,59 +276,15 @@ footer{
     margin-top: 10px;
     border-top: solid 1px #000;
     padding: 20px;
-    background: linear-gradient( #40EBC2, #4084EB , #4084EB) no-repeat;
+    /* background: linear-gradient(0deg, rgba(244,216,0,1) 47%, rgba(2,0,36,1) 90%); */
+    background: rgba(244,216,0,1);
 }
 footer p{
     margin-top: 10px;
     font-size: 20pt;
+    color: #fff;
+    text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
 
     
 }
-/*
-.produtos{
-    
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    max-width: 1200px;
-    background-color: red;
-   
-}
-div.card{
-    display: inline-block;
-    background-color: #40EBC2;
-    
-    width: 80%;
-    max-width: 300px;
-    margin: 5px;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    
 
-}
-.imagens{
-    width: 30%;
-    min-width: 200px;
-    max-width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
-}
-@media (max-width: 730px){
-    .texto{
-        margin: auto;
-        
-        display: block;
-       
-        
-    }
-}
-@media (max-width: 1054px){
-    .produtos{
-        
-        display: inline-block;
-       
-    }
-} */

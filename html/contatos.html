@@ -55,7 +55,7 @@
 
     </header>
     <section>
-        <div class="logo center" style="margin: auto; font-size: 10vw; width: 100%;  background: linear-gradient(#4084EB , #4084EB ,#40EBC2 ) no-repeat;
+        <div class="logo center" style="margin: auto; font-size: 10vw; width: 100%;  background: linear-gradient(0deg,rgba(2,0,36,1) 47%, rgba(244,216,0,1) 90%) no-repeat;
         ">
             <h1><span>Pague</span>Tec</h1>
 
@@ -63,9 +63,11 @@
         <hr>
         <div class="conteudo-contatos">
             <h1>O que é essa pagina?</h1>
-            <p>Essa é uma empresa fictícia, ou seja não pode compra ou entra em contado com ela. Mas, é possível entra em
+            <p>Essa é uma empresa fictícia, ou seja não pode compra ou entra em contado com ela. Mas, é possível entra
+                em
                 contado com o o criador do site, <a target="_black" href="https://www.linkedin.com/in/jeovanesantos/"
-                    style="color: #fff; text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px">linkedin do criador.</a>
+                    style="color: #fff; text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px">linkedin
+                    do criador.</a>
             </p>
             <h1>Por que este site foi criado?</h1>
             <p>Ele foi criado com intituido de treinamento e aprendizado para a terceira semana do GAMA XP40.</p>
@@ -73,19 +75,22 @@
                 os 4 primeiros tem paginas de descrição, contendo fotos, e características do produto
                 e as formas de pagamentos.</p>
 
-                <h1>Fale conosco</h1>
+            <h1>Fale conosco</h1>
         </div>
-        
+
         <form method="POST" id="fContato" action="mailto:jeovanedos2santos@gmail.com">
             <fieldset id="usuario">
                 <legend>Diga quem é você:</legend>
                 <p class="justificar">
-                    <label for="cNome"> Nome:</label><input type="text" name="tNome" id="cNome" size="25" maxlength="50"
-                        placeholder="Nome Completo" /></p>
+                    <label for="cNome"> Nome:</label>
+                    <input type="text" required="required" name="tNome" id="cNome" size="25" maxlength="50"
+                        placeholder="Nome Completo"/>
+                </p>
 
                 <p class="justificar">
-                    <label for="cEmail">E-mail:</label><input type="email" name="tEmail" id="cEmail" size="25"
-                        maxlength="50" placeholder="fulanho@gmail.com">
+                    <label for="cEmail">E-mail:</label>
+                    <input type="email" required="required" name="tEmail" id="cEmail" size="25" maxlength="50"
+                        placeholder="fulanho@gmail.com">
 
                 </p>
                 <fieldset id="sexo" class="justificar" style=" width: 80%;">
@@ -95,13 +100,16 @@
                     <input type="radio" name="tSexo" id="cN" /><label for="cN">Não mim indentifico com nenhum</label>
                 </fieldset>
                 <p class="justificar">
-                    <label for="cNasc">Data de Nascimento:</label><input type="date" name="tNasc" id="cNasc"></p>
+                    <label for="cNasc">Data de Nascimento:</label>
+                    <input type="date" required="required" name="tNasc" id="cNasc">
+                </p>
             </fieldset>
             <fieldset id="endereco">
                 <legend>De onde você é?</legend>
-                <p >
-                    <label for="cEnd"> Qual é o Estado e cidade que você mora?</label> <input type="text" name="tEnd"
-                        id="cEnd" size="25" maxlength="50" placeholder="BA, Maragogipe">
+                <p>
+                    <label for="cEnd"> Qual é o Estado e cidade que você mora?</label>
+                    <input type="text" required="required" name="tEnd" id="cEnd" size="25" maxlength="50"
+                        placeholder="BA, Maragogipe">
                 </p>
 
 
@@ -110,11 +118,12 @@
             <fieldset id="mensagem">
                 <legend>Diga o que você acho do nosso site:</legend>
                 <p><label for="cUrg"> De uma nota:</label>
-                    <input type="range" name="tUrg" id="cUrg" min="0" max="10" step="1">
+                    <input type="range" required="required" name="tUrg" id="cUrg" min="0" max="10" step="1">
                 </p>
                 <p><label for="cMsg"> Mensagem:</label>
-                    <textarea class="w-100" name="tMsg" id="cMsg" cols="" rows="5"
-                        placeholder="Deixe aqui sua mensagem!"></textarea>
+                    <textarea class="w-100"  required="required" name="tMsg" id="cMsg" cols="" rows="5"
+                        placeholder="Deixe aqui sua mensagem!">
+                    </textarea>
                 </p>
             </fieldset>
 
