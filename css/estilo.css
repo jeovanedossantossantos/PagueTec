@@ -8,7 +8,7 @@
 
 }
 body{
-    background: linear-gradient(0deg, rgba(255,255,255,1) 24%, rgba(2,0,36,1) 100%);
+    background: linear-gradient(0deg, rgb(220, 220, 220) 24%, rgba(2,0,36,1) 100%);
     
     /* radial-gradient( #40EBC2 15.62%, #4084EB 99.99%, #4084EB 100%); */
     
@@ -71,6 +71,9 @@ nav .menu{
     padding: 5px;
    
     text-align: center;
+}
+.menu .navegacao .primario .text-ajust i{
+   display: none;
 }
 .menu .navegacao .primario .text-ajust a{
     text-decoration: none;
@@ -166,7 +169,7 @@ div.card{
     display: inline-block;
     /* background: linear-gradient( #40EBC2, #4084EB , #4084EB) no-repeat; */
     width: 300px;
-    height: 400px;
+    height: 410px;
     cursor: pointer;
     border: solid ;
     margin-top: 10px;
@@ -183,7 +186,7 @@ div.card a{
     
 }
 .bg-dark{
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 10%, rgba(249, 249, 249, 1) 50%, rgba(2, 0, 36, 1) 90%);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 10%, rgb(214, 214, 214) 50%, rgba(2, 0, 36, 1) 90%);
 }
 
 div.card a div{ 
@@ -238,6 +241,7 @@ div.card div .imagens{
 
     color: #fff;
 }
+
 .descricao h3{
     font-size: 20pt;
     text-transform: uppercase;
@@ -256,6 +260,39 @@ div.card div .imagens{
     text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
 
 }
+.star{
+    
+    width: 50%;
+    
+    text-align: justify;
+    font-size: 14pt;
+    margin-top: -5px;
+    
+    background: #fff;
+	background-clip: text;
+	-webkit-background-clip: text;
+    color: transparent;
+    
+}
+.star i{
+    color: yellow;
+    
+}
+.star i.metade{
+    
+  color: transparent;
+  background: linear-gradient(to left, #fff 50%,yellow 50%);
+	background-clip: text;
+	-webkit-background-clip: text;
+}
+.star i.sem{
+    
+    color: transparent;
+    background: #fff;
+    
+      background-clip: text;
+      -webkit-background-clip: text;
+  }
 .sobra{
     text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
 }
@@ -287,4 +324,5 @@ footer p{
 
     
 }
+
 
