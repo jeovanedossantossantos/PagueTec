@@ -1,5 +1,5 @@
 # DesafiosDaGama
-Nome do projeto: <a href="https://jeovanedossantossantos.github.io/PagueTec/"> PagueTec</a><br/>
+Nome do projeto: <a href="https://jeovanedossantossantos.github.io/PagueTec/" target="_blank"> PagueTec</a><br/>
 Ramo: Produtos de tecnologia<br/>
 Descrição:O projeto PagueTec, tem 6 paginas ao todo, a home tem os produtos dispostos em cards,
             os 4 primeiros tem paginas de descrição, contendo fotos, e características do produto
