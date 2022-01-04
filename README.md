@@ -11,3 +11,6 @@ Descrição:O projeto PagueTec, tem 6 paginas ao todo, a home tem os produtos di
             e as formas de pagamentos.
              Alé da pagina de contado, odem tem uma descirção do poque este projeto foi feito contendo
             um formulário para contado.
+<h1 align="center">
+  <img src="./imgREADME/2.png"/>
+</h1>
