@@ -25,7 +25,7 @@
 </h1>
 
 <p>
-O DESAFIO
+<div style="font-size: 18px">O DESAFIO</div>
 
 
 Somos parte de uma equipe de desenvolvimento de websites e fomos contratados para a criação de um site de catálogo de produtos. Precisamos desenvolver um site responsivo para nosso cliente contemplando as seguintes características:
@@ -50,7 +50,7 @@ Ao clicar em qualquer produto, mostre uma página com os detalhes deste produto 
 Independente da página que esteja sendo exibida, algum elemento (pode ser um menu ou um botão) que redirecione para a página com informações institucionais, tipo “quem somos”, “contato” (novamente com texto fictício). Fique a vontade para desenvolver quantas páginas achar interessante.
 
 
- ENTREGAS MÍNIMAS
+ <div style="font-size: 18px">ENTREGAS MÍNIMAS</div>
  
 
 Criação do repositório no Github 
@@ -65,7 +65,7 @@ As páginas devem ser responsivas e oferecer boa experiência em diferentes tama
 
 
 
-CRITÉRIOS DE AVALIAÇÃO
+<div style="font-size: 18px">CRITÉRIOS DE AVALIAÇÃO</div>
 
 Repositório no Github contendo README.md com descrição do projeto e commits bem descritivos.
 
