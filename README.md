@@ -25,7 +25,7 @@
 </h1>
 
 <p>
-<div font-size: 18px align="center">O DESAFIO</div>
+<div font-size: 30px align="center">O DESAFIO</div>
 
 
 Somos parte de uma equipe de desenvolvimento de websites e fomos contratados para a criação de um site de catálogo de produtos. Precisamos desenvolver um site responsivo para nosso cliente contemplando as seguintes características:
