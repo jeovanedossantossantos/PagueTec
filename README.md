@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  <img src="./imgREADME/1.png"/>
+  <img src="./imgREADME/6.png"/>
 </h1>
 
 # DesafiosDaGama
