@@ -24,8 +24,8 @@
   <img src="./imgREADME/2.png"/>
 </h1>
 
-<p>
-<div font-size:"30px" "align="center"># O DESAFIO</div>
+
+# O DESAFIO
 
 
 
@@ -82,4 +82,4 @@ As páginas devem ser responsivas. Vamos testar as páginas nas resoluções des
   <img src="./imgREADME/7.png"/>
 </h1>
 
-</p>
+
