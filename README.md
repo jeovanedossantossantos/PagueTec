@@ -51,7 +51,7 @@ Ao clicar em qualquer produto, mostre uma página com os detalhes deste produto 
 Independente da página que esteja sendo exibida, algum elemento (pode ser um menu ou um botão) que redirecione para a página com informações institucionais, tipo “quem somos”, “contato” (novamente com texto fictício). Fique a vontade para desenvolver quantas páginas achar interessante.
 
 
- <div style="font-size: 18px">ENTREGAS MÍNIMAS</div>
+# ENTREGAS MÍNIMAS
  
 
 Criação do repositório no Github 
@@ -66,7 +66,7 @@ As páginas devem ser responsivas e oferecer boa experiência em diferentes tama
 
 
 
-<div style="font-size: 18px">CRITÉRIOS DE AVALIAÇÃO</div>
+# CRITÉRIOS DE AVALIAÇÃO
 
 Repositório no Github contendo README.md com descrição do projeto e commits bem descritivos.
 
