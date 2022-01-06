@@ -27,6 +27,7 @@
 <p>
 <div font-size: 30px align="center"></div>
 # O DESAFIO
+# DesafiosDaGama
 
 
 Somos parte de uma equipe de desenvolvimento de websites e fomos contratados para a criação de um site de catálogo de produtos. Precisamos desenvolver um site responsivo para nosso cliente contemplando as seguintes características:
