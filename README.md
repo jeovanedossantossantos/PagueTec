@@ -76,7 +76,7 @@ O CSS deve ser separado do HTML assim como aprendido em aula, e todos os arquivo
 Não vamos considerar os textos do site, no entanto o nome dos produtos e categorias/seção/tipo dos itens devem fazer sentido. Isso quer dizer, se vocês escolherem por exemplo um catálogo de cosméticos:  o nome dos cosméticos tem que fazer sentido (batom, xampu, protetor solar) e assim como suas categorias como por exemplo cabelo, rosto, maquiagem, etc.
 
 
-As páginas devem ser responsivas. Vamos testar as páginas nas resoluções desktop (1280px) , tablet (1024px)  e celular (375px) . Todas as medidas são de largura da página. 
+<p>As páginas devem ser responsivas. Vamos testar as páginas nas resoluções desktop (1280px) , tablet (1024px)  e celular (375px) . Todas as medidas são de largura da página. </p>
 <h1 align="center">
   <img src="./imgREADME/7.png"/>
 </h1>
